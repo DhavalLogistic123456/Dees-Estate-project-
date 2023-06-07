@@ -1,0 +1,108 @@
+.How-works-section {
+    margin-top: 100px;
+
+    .How-works-title {
+        color: $blue;
+        font-size: 46px;
+        line-height: 61px;
+        font-weight: 700;
+
+        @media (max-width:1199.98px) {
+            font-size: 40px;
+            line-height: 45px;
+        }
+
+        @media (max-width:991.98px) {
+            font-size: 35px;
+            line-height: 40px;
+        }
+    }
+
+    .box-shadow {
+        box-shadow: $card-box-shadow;
+
+        .fa-location-dot {
+            font-size: 60px;
+            color: $blue;
+            margin-top: 30px;
+        }
+
+        h3 {
+            margin-top: 35px;
+            font-size: 36px;
+            font-weight: 500;
+            line-height: 46px;
+
+            @media (max-width:1399.98px) {
+                font-size: 31px;
+            }
+
+            @media (max-width:1199.98px) {
+                font-size: 25px;
+            }
+        }
+
+        .Find-Home-text {
+            @media (max-width:1199.98px) {
+                font-size: 18px;
+                line-height: 24px;
+            }
+        }
+    }
+}
+
+// Why-choose-section
+.Why-choose-section {
+    margin: 100px 0;
+
+    @media (max-width:1199.98px) {
+        margin: 80px 0;
+    }
+
+    @media (max-width:991.98px) {
+        margin: 50px 0;
+    }
+
+    .How-works-text {
+
+        @media (max-width:991.98px) {
+            font-size: 20px;
+            line-height: 25px;
+        }
+    }
+
+    .square-done {
+        color: $blue;
+    }
+
+    .word-class-title {
+        @media (max-width:1199.98px) {
+            font-size: inherit;
+        }
+    }
+}
+
+// Our Featured Properties section
+.Featured-Properties-section {
+    .The-Palace-card {
+        box-shadow: $card-box-shadow;
+        border-radius: 0px 40px;
+    }
+
+    .Lekki-small-text {
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+
+    .Duplex-number {
+        color: $blue;
+        font-weight: 700;
+    }
+}
+
+// Testimonials-section
+.Testimonials-section {
+    .Testimonials-title {
+        margin-top: 100px;
+    }
+}

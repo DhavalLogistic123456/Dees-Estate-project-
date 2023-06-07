@@ -1,0 +1,1 @@
+$(document).ready(()=>{toastr.options={closeButton:!0,progressBar:!0,showMethod:"slideDown",timeOut:4e3,extendedTimeOut:4e3,preventDuplicates:!0},$(".i-checks").iCheck({checkboxClass:"icheckbox_square-green",radioClass:"iradio_square-green"})});

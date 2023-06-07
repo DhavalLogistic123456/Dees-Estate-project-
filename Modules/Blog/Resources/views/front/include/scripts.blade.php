@@ -1,0 +1,1 @@
+<script src="{{ mix('modules/js/blog-front.js') }}"></script>

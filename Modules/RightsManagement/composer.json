@@ -1,0 +1,31 @@
+{
+    "name": "logisticinfotech/rightsmanagement-module",
+    "type": "laravel-module",
+    "description": "",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nirav and Dilip",
+            "email": "nirav@logisticinfotech.com"
+        }
+    ],
+    "require": {
+      "spatie/laravel-permission": "^3.0",
+      "yajra/laravel-datatables-oracle": "^9.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\RightsManagement\\Providers\\RightsManagementServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\RightsManagement\\": ""
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "name": "nwidart/media",
+    "description": "",
+    "authors": [
+        {
+            "name": "Logistic Infotech",
+            "email": "task.logistic.test@gmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.4",
+        "intervention/imagecache": "^2.3"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Media\\Providers\\MediaServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Media\\": ""
+        }
+    }
+}

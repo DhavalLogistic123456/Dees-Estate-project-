@@ -1,0 +1,62 @@
+.hero-section {
+    padding: 80px 0;
+
+    @media (max-width:991.98px) {
+        padding: 40px 0;
+    }
+
+    @media (max-width:575.98px) {
+        padding: 20px 0;
+    }
+
+    h1 {
+        color: $blue;
+        font-size: 4rem;
+        font-weight: 500;
+        line-height: 82px;
+
+        @media (max-width:1199.98px) {
+            line-height: 65px;
+            font-size: 55px;
+        }
+
+        @media (max-width:991.98px) {
+            line-height: 50px;
+            font-size: 45px;
+        }
+    }
+
+    .hero-img {
+        width: 100%;
+    }
+
+    .title-text {
+        width: 100%;
+        font-size: 25px;
+
+        @media (max-width: 991.98px) {
+            font-size: 19px;
+        }
+    }
+
+
+    .fa-circle-play {
+        font-size: 50px;
+        color: $blue;
+    }
+}
+
+// Location-section
+.Location-section {
+    .card {
+        box-shadow: $card-box-shadow;
+
+        .Location-color {
+            color: $blue;
+
+            .card-title {
+                font-size: 22px;
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "Testimonial": true,
+    "Blog": true,
+    "RightsManagement": true,
+    "Media": true,
+    "Accounting": true,
+    "Contactus": true,
+    "PaymentIntegration": true
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Accounting",
+    "alias": "accounting",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Accounting\\Providers\\AccountingServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "helpers.php"
+    ],
+    "requires": []
+}

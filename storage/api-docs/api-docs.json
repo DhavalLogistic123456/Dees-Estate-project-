@@ -1,0 +1,33 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Laravel Starter",
+        "description": "Laravel Starter Swagger OpenApi description",
+        "version": "1.0.0"
+    },
+    "paths": {
+        "/api/v1/accounts": {
+            "get": {
+                "tags": [
+                    "Accounting"
+                ],
+                "summary": "Returns list of accounts",
+                "description": "Returns a list of accounts",
+                "operationId": "getAccounts",
+                "responses": {
+                    "200": {
+                        "description": "successful operation"
+                    }
+                },
+                "security": [
+                    {
+                        "api_key": []
+                    }
+                ]
+            }
+        }
+    },
+    "security": [
+        []
+    ]
+}

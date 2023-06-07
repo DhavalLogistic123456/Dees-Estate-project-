@@ -1,0 +1,29 @@
+// Header file
+.offcanvas {
+    @media (max-width:991.98px) {
+        display: inline;
+    }
+
+    .navbar-main {
+        width: 70%;
+
+        .nav-link {
+            color: $black;
+        }
+
+        .home-active {
+            color: $blue;
+            font-weight: $font-weight-semibold;
+        }
+    }
+}
+
+.btn-primary-abc {
+    background-color: $blue;
+    color: $white;
+
+    &:hover {
+        background-color: $main-btn-bg-hover;
+        color: $white;
+    }
+}

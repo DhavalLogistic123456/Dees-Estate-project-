@@ -1,0 +1,74 @@
+
+.label {
+  background-color: $light-gray;
+  color: $label-badge-color;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  padding: 3px 8px;
+  text-shadow: none;
+  border-radius: 0.25em;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.nav .label, .ibox .label {
+  font-size: 10px;
+}
+
+.badge {
+  background-color: $light-gray;
+  color: $label-badge-color;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  padding-bottom: 4px;
+  padding-left: 6px;
+  padding-right: 6px;
+  text-shadow: none;
+  white-space: nowrap;
+}
+
+.label-primary, .bg-primary {
+  background-color: $navy;
+  color: #FFFFFF;
+}
+
+.label-success, .bg-success {
+  background-color: $blue;
+  color: #FFFFFF;
+}
+
+.label-warning, .bg-warning {
+  background-color: $yellow;
+  color: #FFFFFF;
+}
+
+.label-warning-light, .bg-warning-light {
+  background-color: $yellow;
+  color: #ffffff;
+}
+
+.label-danger, .bg-danger {
+  background-color: $red;
+  color: #FFFFFF;
+}
+
+.label-info, .bg-info {
+  background-color: $lazur;
+  color: #FFFFFF;
+}
+
+.label-inverse, .bg-inverse {
+  background-color: #262626;
+  color: #FFFFFF;
+}
+
+.label-white, .bg-white {
+  background-color: #FFFFFF;
+  color: #5E5E5E;
+}
+
+.label-white, .bg-disable {
+  background-color: #2A2E36;
+  color: #8B91A0;
+}

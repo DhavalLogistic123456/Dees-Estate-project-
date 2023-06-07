@@ -1,0 +1,19 @@
+{
+    "name": "Blog",
+    "alias": "blog",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Blog\\Providers\\BlogServiceProvider",
+        "Yajra\\DataTables\\DataTablesServiceProvider",
+        "Intervention\\Image\\ImageServiceProvider"
+    ],
+    "aliases": {
+        "DataTables": "Yajra\\DataTables\\Facades\\DataTables",
+        "Image": "Intervention\\Image\\Facades\\Image"
+    },
+    "files": [],
+    "requires": []
+}

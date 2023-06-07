@@ -1,0 +1,55 @@
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-size-base: 1.10rem;
+$line-height-lg: 2rem;
+$font-weight-normal: 400;
+
+// Colors
+$blue: #2549D3;
+$red: #e3342f;
+$black: #000000;
+$body-bg-color: #FAFAFA;
+$black: #000000;
+$white: #FFFFFF;
+$light-silver: #D3D3D3;
+$main-btn-bg-hover: #3d5ee0;
+
+// Button
+$btn-padding-y: 18px;
+$btn-padding-x: 28px;
+$border-radius: 18px;
+
+
+// Card
+$card-bg: $white;
+$card-border-radius: 28px;
+$card-box-shadow: 24px 24px 48px rgba(37, 73, 211, 0.05);
+$card-cap-padding-y: 200px;
+$card-box-shadow: 24px 24px 48px rgba(0, 0, 0, 0.05);
+$card-height: 400px;
+
+// @mixin media-breakpoint-up-xl {
+//     @media screen and (min-width:1200px) {
+//         @content;
+//     }
+// }
+
+// @mixin media-breakpoint-up-lg {
+//     @media screen and (min-width:992px) {
+//         @content;
+//     }
+// }
+
+// @mixin media-breakpoint-up-md {
+//     @media screen and (min-width:768px) {
+//         @content;
+//     }
+// }
+
+// @mixin media-breakpoint-up-sm {
+//     @media screen and (min-width:576px) {
+//         @content;
+//     }
+// }

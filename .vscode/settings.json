@@ -1,0 +1,32 @@
+{
+    "php.suggest.basic": false,
+    "editor.quickSuggestions": {
+        "comments": true
+    },
+    "intelephense.files.exclude": [
+        "**/.git/**",
+        "**/.svn/**",
+        "**/.hg/**",
+        "**/CVS/**",
+        "**/.DS_Store/**",
+        "**/node_modules/**",
+        "**/bower_components/**",
+        "**/vendor/**/{Test,test,Tests,tests}/**/*Test.php"
+    ],
+    "editor.formatOnSave": true,
+    "php-cs-fixer.onsave": true,
+    "php-cs-fixer.config": ".vscode/.php_cs;",
+    "[php]": {
+        "editor.defaultFormatter": "junstyle.php-cs-fixer",
+        "editor.formatOnSave": true
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "files.trimTrailingWhitespace": true,
+    "editor.renderWhitespace": "all",
+    "editor.tabSize": 4,
+    "emmet.triggerExpansionOnTab": true, // enable tab to expanse emmet tags
+    "blade.format.enable": true, // if you would like to enable blade format
+    "[blade]": {
+        "editor.autoClosingBrackets": "always"
+    }
+}

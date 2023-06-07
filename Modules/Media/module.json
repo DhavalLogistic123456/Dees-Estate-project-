@@ -1,0 +1,17 @@
+{
+    "name": "Media",
+    "alias": "media",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Media\\Providers\\MediaServiceProvider",
+        "Intervention\\Image\\ImageServiceProvider"
+    ],
+    "aliases": {
+        "Image": "Intervention\\Image\\Facades\\Image"
+    },
+    "files": [],
+    "requires": []
+}

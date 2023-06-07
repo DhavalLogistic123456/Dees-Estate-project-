@@ -1,0 +1,11 @@
+{
+    "name": "PaymentIntegration",
+    "alias": "paymentintegration",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PaymentIntegration\\Providers\\PaymentIntegrationServiceProvider"
+    ],
+    "files": []
+}

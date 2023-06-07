@@ -1,0 +1,15 @@
+{
+    "name": "RightsManagement",
+    "alias": "rightsmanagement",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\RightsManagement\\Providers\\RightsManagementServiceProvider",
+        "Spatie\\Permission\\PermissionServiceProvider"
+    ],
+    "aliases": [],
+    "files": [],
+    "requires": [],
+    "active": 1
+}
